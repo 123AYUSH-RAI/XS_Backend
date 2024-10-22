@@ -10,7 +10,7 @@ export const app = express();
 
 app.use(
 	cors({
-		origin: 'http://localhost:5174',
+		origin: 'https://xs-fe.vercel.app',
 		optionsSuccessStatus: 200,
 		preflightContinue: false,
 		methods: 'GET,POST,OPTIONS',
